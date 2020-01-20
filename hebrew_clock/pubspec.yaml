@@ -1,0 +1,36 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.5.0
+  spritewidget: ^0.9.23
+  kosher_dart:
+    git:
+      url: https://github.com/yakir8/kosher_dart.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - lang/he.json
+    - lang/en.json
+
+  fonts:
+    - family: Segment7
+      fonts:
+        - asset: assets/fonts/Segment7Standard.otf
