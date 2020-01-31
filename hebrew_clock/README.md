@@ -1,11 +1,17 @@
-# Digital Clock
+# Hebrew Clock
 
-This app is an example of a digital clock.
-It has a light theme and a dark theme.
-See the [Analog Clock](../analog_clock) if you'd like an example that displays the weather and location.
+Welcome to Hebrew Clock!
 
-<img src='digital.gif' width='350'>
+This clock create for [Flutter Clock challenge](https://flutter.dev/clock).
 
-<img src='digital_dark.png' width='350'>
+## The Features Of This Clock
+* Clock Format - 24h / 12h
+* Display Format - light / dark
+* Supported Languages - Hebrew & English
+* Weather Animations
+* 23 Beautiful Wallpapers
+* Display Useful Information For Jewish Person
 
-<img src='digital_light.png' width='350'>
+
+## Screenshot Of Hebrew Clock In English
+<img src='../screenshot.png' width='350'>
